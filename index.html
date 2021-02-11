@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css" />
+  </head>
+  <body>
+    <center>
+      <form id="form" action="#">
+      <div id="cont">
+        <h2>crud</h2>
+        
+        <input type="text" id="name" placeholder="User name" /><br /><br />
+        <span id="username" style="color: red;"></span>
+        <input type="text" id="number" placeholder="mobile Number" /><br /><br />
+        <span id="unumber" style="color: red;"></span>
+        <input type="text" id="email" placeholder="Email" /><br /><br />
+        <span id="gmail" style="color: red;"></span>
+        <button id="button">submit</button>
+        <button type="update" id="btn" onclick="onupdate()">update</button>
+        <button id="sort">sort</button>
+      </div  >
+    </center>
+  </form>
+    
+        <div id="contener">
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Email</th>
+            <th>Delete</th>
+            <th>Edit</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <div>
+    </div>
+  </body>
+    
+  <script src="jquery-3.5.1.min.js" ></script>
+  <script src="script.js"></script>
+ 
+  
+</html>
